@@ -4,7 +4,7 @@
 \alias{check_pal}
 \title{Show colours in gov.uk colour palette}
 \usage{
-check_pal(x = gov_cols)
+check_pal(x = dhsc_cols)
 }
 \arguments{
 \item{x}{Either an integer in which case: display \code{gov_cols(1:x)}

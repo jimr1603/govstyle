@@ -37,7 +37,7 @@
 #' @export
 
 check_pal <- function(
-  x = gov_cols
+  x = dhsc_cols
   ) {
 
   if (is.numeric(x)) {
