@@ -1,11 +1,10 @@
-#' @title Show colours in gov.uk colour palette
+#' @title Show colours in DHSC colour palette
 #'
-#' @description \code{\link{check_pal}} produces a bar chart showing the
-#' gov.uk approved colours as available \url{here} and in the vector
-#' \code{\link{gov_cols}}.
+#' @description \code{\link{check_pal}} produces a pie chart showing the
+#' DHSC approved colours.
 #'
-#' @param x Either an integer in which case: display \code{gov_cols(1:x)}
-#'  or a character or integer vector, in which case return \code{gov_cols(x)}.
+#' @param x Either an integer in which case: display \code{dhsc_cols(1:x)}
+#'  or a character or integer vector, in which case return \code{dhsc_cols(x)}.
 #'  Can also be specified manually: see examples.
 #'
 #' @return A pie chart displaying the gov.uk approved colour scheme.
@@ -27,12 +26,6 @@
 #' check_pal(3:8)
 #'
 #' check_pal(c(1,10))
-#'
-#' ## Pick with character vector
-#'
-#' check_pal(
-#' x = gov_cols[c("green", "grass_green")]
-#' )
 #'
 #' @export
 

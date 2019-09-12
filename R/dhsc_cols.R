@@ -1,7 +1,7 @@
 #' @title A vector of the DHSC approved colours
 #'
 #' @description \code{\link{dhsc_cols}} Provides a vector of named colours
-#' from the approved gov.uk colour list available \url{here}.
+#' from the DHSC style guide on our Intranet.
 #'
 #' @return A list of named hexadecimal colours.
 #'
@@ -18,7 +18,7 @@
 #'     y = wt
 #'   ) +
 #'   geom_point(
-#'     colour = gov_cols["green"]
+#'     colour = dhsc_cols["dhsc_green"]
 #'   ) +
 #'   theme_gov()
 #' @export
