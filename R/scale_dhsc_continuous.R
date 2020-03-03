@@ -59,7 +59,7 @@ scale_dhsc_continuous <- function(type = "fill", ...) {
   if (type == "fill") {
     s <- ggplot2::scale_fill_gradient(low=low_colour, high=base_colour)
   } else if (type == "colour") {
-    s <- ggplot2::scale_coloru_gradient(low=low_colour, high=base_colour)
+    s <- ggplot2::scale_colour_gradient(low=low_colour, high=base_colour)
   }
   
   return(s)
